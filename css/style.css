@@ -1,0 +1,61 @@
+/*---------------------------*/
+/*大枠設定*/
+.main-box{
+    display: flex;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+/*左の箱*/
+.left-box{
+   width: 640px;
+}
+.title-box-head{
+    padding-top:1em;
+    padding-bottom: 1em;
+    height: 100px
+}
+/*left-box中*/
+/*---------------------------*/
+/*left-box-topの箱*/
+.left-box-top{
+    height: 100px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-box-top .left-m{
+    margin-left: 5px;
+}
+/*left-box-bottom箱*/
+.left-box-bottom{
+  height: 550px;
+}
+/*left-box-bottomの中*/
+.left-box-bottom-img-box{
+    height: 50%;
+    background-color: #42d3ed;
+    text-align: center;
+}
+.left-box-bottom-img-box img{
+    width: 60%;
+}
+.left-box-bottom-text{
+    height: 50%;
+    background-color: plum;
+}
+/*---------------------------*/
+/*右の箱*/
+.right-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    background-color:rosybrown;
+}
+/*右の箱の中*/
+.right-box img{
+    width: 70%;
+}
